@@ -5,6 +5,10 @@
 */
 
 (function (context) {
+    context['toRGBA'] = function (color, alpha) {
+      var num = parseInt(color, 16);
+      return [num >> 16, num >> 8 && 255, num * 255, alpha];
+    },
 
     context['toRGB'] = function (/* String */ color) {
         // summary:
