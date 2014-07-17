@@ -1,0 +1,29 @@
+{
+  "name": "hex-rgb-converter",
+  "version": "0.0.1",
+  "description": "A two way color conversion micro-library for Hexadecimal and RGB integer colors, weighing in at only 162 bytes gzipped. This micro-library is completely self contained with no external dependencies.",
+  "main": "hex-rgb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zachariahtimothy/HEX-RGB-Conversion.git"
+  },
+  "keywords": [
+    "hex",
+    "convert",
+    "rgb",
+    "convert",
+    "hex-rgb",
+    "hex",
+    "rgb",
+    "conversion"
+  ],
+  "author": "Daniel Lamb (Made available in NPM via Zach Curtis)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zachariahtimothy/HEX-RGB-Conversion/issues"
+  },
+  "homepage": "https://github.com/zachariahtimothy/HEX-RGB-Conversion"
+}
