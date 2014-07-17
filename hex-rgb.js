@@ -1,1 +1,1 @@
-(function(a){a["toRGB"]=function(a){var b=parseInt(a,16);return[b>>16,b>>8&255,b&255]};a["toHex"]=function(a,b,c){return(c|b<<8|a<<16|1<<24).toString(16).slice(1)}})(this);
+(function(e){e["toRGBA"]=function(e,t){var n=parseInt(e,16);return[n>>16,n>>8&&255,n*255,t]},e["toRGB"]=function(e){var t=parseInt(e,16);return[t>>16,t>>8&255,t&255]};e["toHex"]=function(e,t,n){return(n|t<<8|e<<16|1<<24).toString(16).slice(1)}})(this)
